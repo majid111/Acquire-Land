@@ -1,0 +1,116 @@
+[
+    {
+      "id": 1,
+      "estate_title": "Green Valley Farms",
+      "segment_name": "Farms",
+      "description": "Expansive farm with rich soil and ideal conditions for various crops.",
+      "price": 220000,
+      "status": "sale",
+      "area": "120 acres",
+      "location": "Green Valley",
+      "facilities": ["Barn", "Greenhouse", "Water System"],
+      "image": "https://i.ibb.co/wNNCXTw/green-Valley-farm.jpg"
+    },
+    {
+      "id": 2,
+      "estate_title": "Old Bridge Vineyard",
+      "segment_name": "Vineyards",
+      "description": "Productive vineyard with mature grapevines ready for harvest.",
+      "price": 340000,
+      "status": "sale",
+      "area": "50 acres",
+      "location": "Old Bridge",
+      "facilities": ["Tasting Room", "Storage", "Farmhouse"],
+      "image": " https://i.ibb.co/fN6qcBg/old-bridge-vineyard.jpg"
+    },
+    {
+      "id": 3,
+      "estate_title": "Silverpine Forest",
+      "segment_name": "Forests",
+      "description": "Dense forest with a diverse ecosystem and valuable timber.",
+      "price": 180000,
+      "status": "sale",
+      "area": "300 acres",
+      "location": "Silverpine",
+      "facilities": ["Logging Trails", "Camping Sites"],
+      "image": "https://i.ibb.co/dQ3x2gt/silver-pine-forest.jpg"
+    },
+    {
+      "id": 4,
+      "estate_title": "Blue Mountain Plantation",
+      "segment_name": "Plantations",
+      "description": "Sprawling coffee plantation with state-of-the-art processing facilities.",
+      "price": 250000,
+      "status": "sale",
+      "area": "80 acres",
+      "location": "Blue Mountain",
+      "facilities": ["Processing Plant", "Labor Quarters"],
+      "image": "https://i.ibb.co/njkR0Z4/Blue-Mountain-Plantation.jpg"
+    },
+    {
+      "id": 5,
+      "estate_title": "Golden Prairie Ranch",
+      "segment_name": "Ranches",
+      "description": "Large ranch with facilities for cattle and horse breeding.",
+      "price": 410000,
+      "status": "sale",
+      "area": "200 acres",
+      "location": "Golden Prairie",
+      "facilities": ["Stables", "Corrals", "Veterinary Clinic"],
+      "image": "https://i.ibb.co/MpSh3N9/golden-Prairie-ranch.jpg"
+    },
+    {
+      "id": 6,
+      "estate_title": "Emerald Orchard Farm",
+      "segment_name": "Farms",
+      "description": "Highly productive orchard with a variety of fruit trees.",
+      "price": 150000,
+      "status": "sale",
+      "area": "45 acres",
+      "location": "Emerald Orchard",
+      "facilities": ["Irrigation System", "Cold Storage", "Packing House"],
+      "image": "https://i.ibb.co/nMSwgGC/Emerald-Orchard-Farm.jpg"
+    },
+    {
+      "id": 7,
+      "estate_title": "Crimson Ridge Vineyard",
+      "segment_name": "Vineyards",
+      "description": "Scenic vineyard with premium wine production capabilities.",
+      "price": 360000,
+      "status": "sale",
+      "area": "60 acres",
+      "location": "Crimson Ridge",
+      "facilities": ["Winery", "Barrel Room", "Guest Cottage"],
+      "image": "https://i.ibb.co/kGFnYqD/Crimson-Ridge-Vineyard.jpg"
+    },
+    {
+      "id": 8,
+      "estate_title": "Misty Woods Forest",
+      "segment_name": "Forests",
+      "description": "Vast forest area ideal for conservation and sustainable forestry.",
+      "price": 195000,
+      "status": "sale",
+      "area": "250 acres",
+      "location": "Misty Woods",
+      "facilities": ["Nature Trails", "Research Station"],
+      "image": "https://i.ibb.co/WfDP1F6/mistry-wood-forest.jpg"
+    },
+    {
+      "id": 9,
+      "estate_title": "Sunset Coconut Plantation",
+      "segment_name": "Plantations",
+      "description": "Expansive coconut plantation with high yield potential.",
+      "price": 300000,
+      "status": "sale",
+      "area": "70 acres",
+      "location": "Sunset Beach",
+      "facilities": ["Coconut Processing", "Beach Front"],
+      "image": "https://i.ibb.co/68zc4s3/Sunset-coconut-plantation.jpg"
+    }
+  ]
+
+
+
+
+
+
