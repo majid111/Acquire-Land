@@ -9,6 +9,8 @@ import UpdateProfile from "../pages/UpdateProfile/UpdateProfile";
 import UserProfile from "../pages/UserProfile/UserProfile";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import EstatesDetails from "../pages/EstatesDetails.jsx/EstatesDetails";
+import About from "../pages/About/About";
+import ContactUs from "../pages/ContactUs/ContactUs";
 
 const router = createBrowserRouter([
   {
@@ -18,8 +20,8 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home></Home>,
         loader: ()=> fetch('/LandData.json'),
+        element: <Home></Home>,
       },
       {
         path: "/updateProfile",
@@ -36,6 +38,14 @@ const router = createBrowserRouter([
       {
         path: "/register",
         element: <Register></Register>,
+      },
+      {
+        path: "/contactUs",
+        element: <ContactUs></ContactUs>,
+      },
+      {
+        path: "/about",
+        element: <About></About>,
       },
       {
         path: "/estates/:id",

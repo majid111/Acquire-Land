@@ -8,7 +8,8 @@ import {
   signInWithPopup,
   signOut,
   updateProfile,
-  GoogleAuthProvider ,GithubAuthProvider,
+  GoogleAuthProvider,
+  GithubAuthProvider,
 } from "firebase/auth";
 import app from "../Firebase/firebase.config";
 
@@ -38,6 +39,21 @@ const AuthProvider = ({ children }) => {
     return signInWithPopup(auth, githubProvider);
   };
 
+  const updateUserProfile = ({name, photoUrl}) => {
+    return updateProfile(auth.currentUser, {
+      displayName: name,
+      photoURL: photoUrl,
+    });
+  };
+
+  // .then(() => {
+  //   // Profile updated!
+  //   // ...
+  // }).catch((error) => {
+  //   // An error occurred
+  //   // ...
+  // });
+
   // const updateProfile = ( userName, photoUrl )={
   //   return updateProfile(auth.currentUser, {displayName:{userName},photoURL:{photoUrl}})
   // }
@@ -64,7 +80,8 @@ const AuthProvider = ({ children }) => {
     logOut,
     signIn,
     signInWithGoogle,
-    signInWithGithub
+    signInWithGithub,
+    updateUserProfile,
   };
 
   return (

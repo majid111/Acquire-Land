@@ -9,7 +9,7 @@ import IMG7 from '../../assets/old bridge vineyard.jpg';
 import IMG8 from '../../assets/silver pine forest.jpg';
 import IMG9 from '../../assets/Sunset coconut plantation.jpg';
 
-import React, { useRef, useState } from 'react';
+import  { useRef} from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 

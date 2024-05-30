@@ -5,9 +5,14 @@ const Home = () => {
     
     return (
         <div>
-            <div className="">
+            <div className="mt-10">
+                <div>
                 <Slider></Slider>   
+                </div>
+                <div>
                 <Estates></Estates>
+                </div>
+                <Slider/>
             </div>
             
         </div>
