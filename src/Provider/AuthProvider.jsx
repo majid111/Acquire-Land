@@ -8,15 +8,16 @@ import {
   signInWithPopup,
   signOut,
   updateProfile,
+  GoogleAuthProvider ,GithubAuthProvider,
 } from "firebase/auth";
 import app from "../Firebase/firebase.config";
-import { GoogleAuthProvider } from "firebase/auth/cordova";
 
 export const AuthContext = createContext(null);
 
 const AuthProvider = ({ children }) => {
   const auth = getAuth(app);
   const googleProvider = new GoogleAuthProvider();
+  const githubProvider = new GithubAuthProvider();
 
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -32,6 +33,9 @@ const AuthProvider = ({ children }) => {
 
   const signInWithGoogle = () => {
     return signInWithPopup(auth, googleProvider);
+  };
+  const signInWithGithub = () => {
+    return signInWithPopup(auth, githubProvider);
   };
 
   // const updateProfile = ( userName, photoUrl )={
@@ -60,6 +64,7 @@ const AuthProvider = ({ children }) => {
     logOut,
     signIn,
     signInWithGoogle,
+    signInWithGithub
   };
 
   return (

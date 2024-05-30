@@ -5,7 +5,7 @@ import { FaGithub, FaGoogle } from "react-icons/fa";
 
 const Login = () => {
 
-  const {signIn,signInWithGoogle}=useContext(AuthContext);
+  const {signIn,signInWithGoogle,signInWithGithub}=useContext(AuthContext);
   const navigate = useNavigate();
   const location =useLocation();
   console.log(location);
@@ -27,6 +27,15 @@ const Login = () => {
 
   const handleGoogleSignIn=()=>{
     signInWithGoogle()
+    .then(result=>{
+      console.log(result.user);
+    })
+    .catch(error=>{
+      console.log(error);
+    })
+  }
+  const handleGithubSignIn=()=>{
+    signInWithGithub()
     .then(result=>{
       console.log(result.user);
     })
@@ -84,7 +93,7 @@ const Login = () => {
           <FaGoogle />
           Google
         </button>
-        <button className="btn btn-outline">
+        <button onClick={handleGithubSignIn} className="btn btn-outline">
           <FaGithub />
           Github
         </button>

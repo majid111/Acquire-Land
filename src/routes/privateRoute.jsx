@@ -2,9 +2,11 @@
 import PropTypes from 'prop-types';
 import { useContext } from 'react';
 import { AuthContext } from '../Provider/AuthProvider';
-import { Navigate, useLocation } from 'react-router-dom';
+import { Navigate, Route, useLocation } from 'react-router-dom';
 
 const PrivateRoute = ({children}) => {
+
+    // document.title=route.title || "trulycontacts";
     const {user,loading} = useContext(AuthContext);
 
     const location = useLocation();

@@ -7,11 +7,14 @@ import Login from "../pages/Login/Login";
 import PrivateRoute from "./privateRoute";
 import UpdateProfile from "../pages/UpdateProfile/UpdateProfile";
 import UserProfile from "../pages/UserProfile/UserProfile";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
+import EstatesDetails from "../pages/EstatesDetails.jsx/EstatesDetails";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement:<ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -34,8 +37,14 @@ const router = createBrowserRouter([
         path: "/register",
         element: <Register></Register>,
       },
+      {
+        path: "/estates/:id",
+        element: <EstatesDetails></EstatesDetails>,
+      },
     ],
   },
 ]);
 
 export default router;
+
+

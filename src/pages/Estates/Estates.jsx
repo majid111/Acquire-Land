@@ -5,7 +5,7 @@ const Estates = () => {
     const estates=useLoaderData();
     console.log(estates);
     return (
-        <div>
+        <div className="space-y-6 my-10">
             {
                 estates.map(estate=><Estate key={estate.id} estate={estate}></Estate>)
             }
