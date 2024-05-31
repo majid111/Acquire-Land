@@ -4,6 +4,6 @@
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
   NPM Packages used:
-  -Aos
-  -Swiper js
-  -React Tooltip
+  -.Aos.
+  -.Swiper js.
+  -.React Tooltip.
