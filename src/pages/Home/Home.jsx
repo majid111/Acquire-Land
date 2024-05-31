@@ -7,12 +7,11 @@ const Home = () => {
         <div>
             <div className="mt-10">
                 <div>
-                <Slider></Slider>   
+                <Slider/>   
                 </div>
                 <div>
-                <Estates></Estates>
+                <Estates/>
                 </div>
-                <Slider/>
             </div>
             
         </div>

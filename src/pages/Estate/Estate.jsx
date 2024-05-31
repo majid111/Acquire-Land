@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
+import { useEffect } from "react";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Estate = ({ estate }) => {
   const {
@@ -15,8 +18,12 @@ const Estate = ({ estate }) => {
     status,
   } = estate;
 
+  useEffect(()=>{
+    Aos.init();
+  },[]);
+
   return (
-    <div className="hero bg-base-200 rounded-lg">
+    <div className="hero bg-base-200 rounded-lg" data-aos="fade-up">
       <div className="hero-content flex-col lg:flex-row">
         <img src={image} className="max-w-sm rounded-lg shadow-2xl" />
         <div>

@@ -19,8 +19,10 @@ const EstatesDetails = () => {
     status,
   } = land[0];
 
+  
+
   return (
-    <div className="hero min-h-screen bg-base-200 rounded-lg">
+    <div className="hero min-h-screen bg-base-200 rounded-lg" >
       <div className="hero-content flex-col lg:flex-row">
         <img src={image} className="max-w-sm rounded-lg shadow-2xl" />
         <div>
