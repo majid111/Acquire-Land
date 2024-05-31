@@ -13,7 +13,8 @@ NPM Packages used:
  - Slider Autoplays
  - Responsive
 
-   Live Link  [Live Link](https://github.com/majid111)
+   Live Link
+   - [Acquire-Land](https://github.com/majid111)
 
 
 
