@@ -11,6 +11,7 @@ NPM Packages used:
  - Hosted in firebase
  - Dynamic Navbar
  - Slider Autoplays
+ - Responsive 
 
 - [Live Link](https://github.com/majid111)
 
