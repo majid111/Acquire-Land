@@ -1,8 +1,8 @@
-##**Acquire-Land**
+## Acquire-Land
 NPM Packages used:
--Aos
-*Swiper js
-+React Tooltip
+- Aos
+* Swiper js
++ React Tooltip
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
